@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html ng-app="gulpSample" lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>I want to learn Gulp!</title>
+
+	<link href='http://fonts.googleapis.com/css?family=Raleway:400,700' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.0-beta.1/angular.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.2.15/angular-ui-router.min.js"></script>
+</head>
+<body ng-controller="homeCtrl">
+
+<div id="header">
+
+	<div class="logo">r-walsh //home</div>
+
+	<div class="clear"></div>
+
+	<ul id="nav-bar">
+		<a><li class="nav-item">Home</li></a>
+		<a><li class="nav-item">Technologies</li></a>
+		<a><li class="nav-item">About</li></a>
+	</ul>
+
+</div>
+	
+<div id="profile-container">
+
+	<ul id="profile-links">
+
+		<li class="profile-item">
+			<a href="https://github.com/r-walsh" target="_blank"><i class="github fa fa-lg fa-github"></i></a>
+		</li>
+
+		<li class="profile-item linkedin">
+			<a href="https://www.linkedin.com/pub/ryan-walsh/a2/669/175" target="_blank"><i class="linkedin fa fa-lg fa-linkedin"></i></a>
+		</li>
+
+		<li class="profile-item">
+			<a href="https://twitter.com/_rtwalsh" target="_blank"><i class="twitter fa fa-lg fa-twitter"></i></a>
+		</li>
+
+	</ul>
+
+</div>
+
+<div class="wrapper">
+	<div class="post-container">
+		<p class="date">1 November 2015</p>
+		<h3 class="post-title">Progress</h3>
+		<p class="post-content">
+			I was looking back through projects I had completed during my time as a student at DevMountain and paused to reflect on my progress. I started the course on August 24th, shortly over two months ago, and the amount of knowledge that has been crammed into my head is staggering. As a reference I'd like to point back to my most complicated project before coming to DevMountain. A simple <a href="http://codepen.io/anon/pen/pjZzdg">color game</a> made in jQuery.
+		</p>
+
+		<p class="post-content">
+			At the time getting that game up and functional was an all day task for me, leading to an incredible amount of excitement once it was completed. I didn't mind that the CSS was hacked up or that I had a boatload of global variables. It was just <em>cool</em> that I had actually created something from scratch that worked. And that feeling remains my favorite part of programming. When everything starts to come together into a fully functional web app there is an undeniable sense of success that simply cannot be topped.
+		</p>
+
+		<p class="post-content">
+			Looking back on the project there is a significant amount I would change, but I don't think I will ever complete a project and not be able to browse through it and find a dozen things I would do differently. Every line of code written increases my experience and(hopefully) teaches me better practices, so I can write that line better the next time around.
+		</p>
+
+		<p class="post-content">
+			Even looking back just a few weeks to my <a href="https://github.com/r-walsh/topicSurvey">personal project</a> I find a huge amount of things I would change. (And please excuse the complete lack of polish, I was pulled from this project to another one shortly after getting it <em>mostly</em> functional). There are too few controllers and too much business logic in those controllers. Much of the code in the services could have been written significantly cleaner, particularly using underscore.js or lodash. There are extraneous endpoints and correlated functions that are never called. The schemas would require a significant re-work to properly implement authentication.
+		</p>
+
+		<p class="post-content">
+			Compared to my current projects the code is a mess, but I take that as a good thing. It means I am improving with every step. I truly hope that every time I look back on old code I find things I would change, because that means I haven't stopped improving.
+		</p>
+	
+	</div>
+</div>
+
+</body>
+</html>
